@@ -1,0 +1,42 @@
+form {
+    background-color: pink;
+    /*Colocar a tela no meinho*/
+    margin: 0 auto;
+    width: 400px;
+    border: 1px solid lightpink;
+    border-radius: 10px;
+    padding: 30px;
+            }
+form div + div {
+    margin-top: 15px;
+}               
+
+label {
+    text-align: right;
+    display: inline-block;
+    width: 80px;
+}
+
+textarea{
+    font: 12px sans-serif;
+    width: 300px;
+    height: 100px;
+    border: 1px solid teal;
+    box-sizing: border-box;
+    border-radius: 3px;
+    vertical-align:  top;
+
+}
+
+input{
+    width: 299px;
+    border: 1px solid teal;
+}
+
+h3{ 
+    text-align: center;
+}
+
+button{
+    margin-left: 330px;
+}

@@ -7,13 +7,13 @@ var app = document.getElementById("app")
 
 
 
-var loginEl = document.createAttribute("imput")
+var loginEl = document.createAttribute("input")
 loginEl.setattribute("type","text")
 loginEl.setattribute("placeholder","Escreva seu nome")
 loginEl.setattribute("id","usuario")
 app.appendChild(loginEl)
 
-var senhaEl = document.createAttribute("imput")
+var senhaEl = document.createAttribute("input")
 senhaEl.setattribute("type","text")
 senhaEl.setattribute("placeholder","Escreva sua senha")
 senhaEl.setattribute("id","usuario")
